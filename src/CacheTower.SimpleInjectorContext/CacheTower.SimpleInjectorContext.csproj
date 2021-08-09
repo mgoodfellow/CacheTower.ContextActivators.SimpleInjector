@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Mike Goodfellow</Authors>
+    <Description>SimpleInjector context for CacheTower</Description>
+    <Version>0.0.2</Version>
+    <PackageProjectUrl>https://github.com/mgoodfellow/CacheTower.SimpleInjectorContext</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mgoodfellow/CacheTower.SimpleInjectorContext</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <Copyright>Copyright © 2021 Mike Goodfellow</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CacheTower" Version="0.10.0" />
+    <PackageReference Include="SimpleInjector" Version="5.3.2" />
+  </ItemGroup>
+
+</Project>
