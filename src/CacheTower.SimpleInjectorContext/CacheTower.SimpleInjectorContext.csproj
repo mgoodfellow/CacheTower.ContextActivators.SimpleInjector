@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Mike Goodfellow</Authors>
     <Description>SimpleInjector context for CacheTower</Description>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <PackageProjectUrl>https://github.com/mgoodfellow/CacheTower.SimpleInjectorContext</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mgoodfellow/CacheTower.SimpleInjectorContext</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="CacheTower" Version="0.10.0" />
-    <PackageReference Include="SimpleInjector" Version="5.3.2" />
+    <PackageReference Include="SimpleInjector" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
