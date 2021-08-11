@@ -3,10 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Mike Goodfellow</Authors>
-    <Description>SimpleInjector context for CacheTower</Description>
-    <Version>0.0.4</Version>
-    <PackageProjectUrl>https://github.com/mgoodfellow/CacheTower.SimpleInjectorContext</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mgoodfellow/CacheTower.SimpleInjectorContext</RepositoryUrl>
+    <Description>SimpleInjector context activator for CacheTower</Description>
+    <Version>0.1.0</Version>
+    <PackageProjectUrl>https://github.com/mgoodfellow/CacheTower.ContextActivators.SimpleInjector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mgoodfellow/CacheTower.ContextActivators.SimpleInjector</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Copyright>Copyright © 2021 Mike Goodfellow</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

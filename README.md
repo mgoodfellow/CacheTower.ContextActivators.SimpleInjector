@@ -1,6 +1,6 @@
-# CacheTower.SimpleInjectorContext
+# CacheTower.ContextActivators.SimpleInjector
 
-[![NuGet version (CacheTower.SimpleInjectorContext)](https://img.shields.io/nuget/v/CacheTower.SimpleInjectorContext.svg?style=flat-square)](https://www.nuget.org/packages/CacheTower.SimpleInjectorContext/)
+[![NuGet version (CacheTower.ContextActivators.SimpleInjector)](https://img.shields.io/nuget/v/CacheTower.ContextActivators.SimpleInjector.svg?style=flat-square)](https://www.nuget.org/packages/CacheTower.ContextActivators.SimpleInjector/)
 
 ## Usage
 
@@ -30,7 +30,7 @@ Configure your cache stack:
 
 ```csharp
 var myCacheStack = new CacheStack<SessionContext>(
-    new SimpleInjectorCacheContextActivator<SessionContext>(container),
+    new SimpleInjectorContextActivator<SessionContext>(container),
     new ICacheLayer[]
         {
             new MemoryCacheLayer(),

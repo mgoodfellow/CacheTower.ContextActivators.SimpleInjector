@@ -2,20 +2,20 @@
 using SimpleInjector;
 using SimpleInjector.Lifestyles;
 
-namespace CacheTower.SimpleInjectorContext
+namespace CacheTower.ContextActivators.SimpleInjector
 {
-    public class SimpleInjectorCacheContextActivator<TContext> : ICacheContextActivator
+    public class SimpleInjectorContextActivator<TContext> : ICacheContextActivator
     {
         private readonly Container _container;
 
-        public SimpleInjectorCacheContextActivator(Container container)
+        public SimpleInjectorContextActivator(Container container)
         {
             _container = container ?? throw new ArgumentNullException(nameof(container)); ;
         }
 
         public ICacheContextScope BeginScope()
         {
-            return new SimpleInjectorCacheContextScope<TContext>(
+            return new SimpleInjectorContextScope<TContext>(
                 _container,
                 AsyncScopedLifestyle.BeginScope(_container));
         }

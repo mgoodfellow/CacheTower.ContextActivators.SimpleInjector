@@ -18,4 +18,4 @@ exec { & dotnet clean -c Release }
 
 exec { & dotnet build -c Release }
 
-exec { & dotnet pack .\CacheTower.SimpleInjectorContext\CacheTower.SimpleInjectorContext.csproj -c Release -o $artifacts --no-build }
+exec { & dotnet pack .\CacheTower.ContextActivators.SimpleInjector\CacheTower.ContextActivators.SimpleInjector.csproj -c Release -o $artifacts --no-build }
