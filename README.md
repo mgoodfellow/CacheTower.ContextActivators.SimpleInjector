@@ -2,6 +2,14 @@
 
 [![NuGet version (CacheTower.ContextActivators.SimpleInjector)](https://img.shields.io/nuget/v/CacheTower.ContextActivators.SimpleInjector.svg?style=flat-square)](https://www.nuget.org/packages/CacheTower.ContextActivators.SimpleInjector/)
 
+## What is this?
+
+This is a [SimpleInjector](https://github.com/simpleinjector/SimpleInjector) context activator for [CacheTower](https://github.com/TurnerSoftware/CacheTower)
+
+This allows you to resole a context via the DI container where the scope of the injected dependencies are managed by the container.
+
+This is often important for background refreshing which can run out-of-band and at any time.
+
 ## Usage
 
 Define a context, or use a pre-registered context
